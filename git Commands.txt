@@ -1,0 +1,49 @@
+Basic Commands
+git init: Initializes a new Git repository in the current directory.
+git clone [repository-url]: Creates a copy of an existing repository from a URL to your local machine.
+git status: Displays the state of the working directory and staging area.
+git add [file]: Adds the specified file(s) to the staging area.
+git commit -m "[message]": Records changes in the repository with a message.
+git push [remote] [branch]: Uploads local branch commits to the remote repository.
+git pull [remote] [branch]: Fetches and integrates changes from the remote repository to the current branch.
+git branch: Lists all local branches.
+git checkout [branch]: Switches to the specified branch.
+git merge [branch]: Merges the specified branch into the current branch.
+
+Branching and Merging
+git branch [branch-name]: Creates a new branch.
+git checkout -b [branch-name]: Creates and switches to a new branch.
+git merge [branch]: Merges the specified branch into the current branch.
+git branch -d [branch-name]: Deletes the specified branch locally.
+git push origin --delete [branch-name]: Deletes the specified branch remotely.
+
+Viewing History and Logs
+git log: Shows the commit history for the current branch.
+git log --oneline: Shows a simplified commit history in a single line per commit.
+git diff [file]: Shows changes between the working directory and the staging area.
+git show [commit]: Displays information about a specific commit.
+
+Stashing and Cleaning
+git stash: Temporarily saves changes that are not yet ready to be committed.
+git stash pop: Restores the most recently stashed changes and removes them from the stash list.
+git stash apply: Applies the most recently stashed changes without removing them from the stash list.
+git clean -f: Removes untracked files from the working directory.
+
+Remote Repositories
+git remote -v: Displays the remote connections to the repository.
+git remote add [name] [url]: Adds a new remote repository.
+git fetch [remote]: Fetches changes from the remote repository without merging them.
+git push [remote] [branch]: Pushes changes from the local repository to the remote one.
+git pull [remote] [branch]: Pulls changes from the remote repository and merges them into the current branch.
+
+Undoing Changes
+git reset --soft [commit]: Resets the current branch to a specific commit, keeping changes in the working directory.
+git reset --hard [commit]: Resets the current branch to a specific commit, discarding all changes in the working directory.
+git revert [commit]: Creates a new commit that undoes the changes from a previous commit.
+
+Tagging
+git tag [tag-name]: Creates a new tag.
+git push origin [tag-name]: Pushes the specified tag to the remote repository.
+git tag -d [tag-name]: Deletes a tag locally.
+git push origin :refs/tags/[tag-name]: Deletes a tag remotely.
+This is just a starting point; Git is powerful and has many more commands and options.
