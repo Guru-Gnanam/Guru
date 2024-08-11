@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Test code
 // Function prototypes (assuming these functions exist to get the respective values)
 int getCount();
 float getBrightness();
