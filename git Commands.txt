@@ -47,3 +47,6 @@ git push origin [tag-name]: Pushes the specified tag to the remote repository.
 git tag -d [tag-name]: Deletes a tag locally.
 git push origin :refs/tags/[tag-name]: Deletes a tag remotely.
 This is just a starting point; Git is powerful and has many more commands and options.
+
+
+The End
